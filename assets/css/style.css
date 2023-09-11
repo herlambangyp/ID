@@ -149,9 +149,10 @@ h6 {
 }
 
 .nav-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
 }
 
 .nav-menu>ul>li {
@@ -172,17 +173,21 @@ h6 {
 
 .nav-menu a i,
 .nav-menu a:focus i {
-  font-size: 24px;
-  padding-right: 8px;
-  color: #6f7180;
+    font-size: 24px;
+    padding-right: 0px;
+    color: rgb(111, 113, 128);
+    width: 60px;
 }
 
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 7px;
+    transition: 0.8s;
 }
 
 .nav-menu a:hover i,
